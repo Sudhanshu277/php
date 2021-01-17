@@ -1,0 +1,22 @@
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 27%
+    left:82px;
+}
+body {
+    /* background-color: #E5E4E2; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRuizV3GXIrjuf_a_m0XVOmHGIUt5IF9k03g&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+    
+}
