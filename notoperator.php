@@ -3,7 +3,7 @@
 $name = "sudhanshu";
 
 if ($name != " "){
-	echo "nice to meet you sudhanshu";
+	echo "nice to meet you ".$name;
 }
 else{
 	echo "thank you";
